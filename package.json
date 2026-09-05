@@ -1,0 +1,16 @@
+{
+  "name": "hari-cli",
+  "version": "1.0.0",
+  "description": "My personal CLI tool",
+  "main": "index.js",
+  "bin": {
+    "hari": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hari",
+  "license": "ISC",
+  "type": "commonjs"
+}
