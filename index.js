@@ -3,6 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
+const liveServer = require("live-server");
 
 const args = process.argv.slice(2);
 
@@ -455,7 +456,12 @@ document
   exec(`code "${projectPath}"`);
 
   // Start live server
-  exec(`live-server "${projectPath}"`);
+  // exec(`live-server "${projectPath}"`);
+  liveServer.start({
+    root: projectPath,
+    open: true,
+    port: 8080
+  });
 
 } else {
 
