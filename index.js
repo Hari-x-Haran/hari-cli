@@ -453,7 +453,7 @@ document
   console.log(`🚀 Opening VS Code and Live Server...\\n`);
 
   // Open VS Code
-  exec(`code "${projectPath}"`);
+  // exec(`code "${projectPath}"`);
 
   // Start live server
   // exec(`live-server "${projectPath}"`);
