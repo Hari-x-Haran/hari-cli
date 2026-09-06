@@ -2,18 +2,27 @@
   "name": "hari-cli",
   "version": "1.0.0",
   "description": "My personal CLI tool",
+  "keywords": [],
+  "homepage": "https://github.com/Hari-x-Haran/hari-cli#readme",
+  "bugs": {
+    "url": "https://github.com/Hari-x-Haran/hari-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hari-x-Haran/hari-cli.git"
+  },
+  "license": "ISC",
+  "author": "Hari",
+  "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "hari": "./index.js"
+    "hari": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Hari",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "live-server": "^1.2.2"
-  }
+  },
+  "devDependencies": {}
 }

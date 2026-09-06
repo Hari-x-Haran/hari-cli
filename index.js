@@ -464,8 +464,6 @@ document
   });
 
 } else {
-
   console.log("❌ Unknown command.");
   console.log("Try: hari vino myproject");
-
 }
